@@ -1,0 +1,35 @@
+{
+    "version": "2.0",
+    "defaults": {
+        "lport": 4444,
+        "encoder": "x86/shikata_ga_nai",
+        "iterations": 5,
+        "output_dir": "./payloads",
+        "verbose": true
+    },
+    "encoders": {
+        "windows": ["x86/shikata_ga_nai", "x86/polymorphic", "x86/call4_dword_xor"],
+        "linux": ["x86/shikata_ga_nai", "x86/polymorphic", "x64/xor"],
+        "android": ["dalvik/dex"],
+        "macos": ["x86/shikata_ga_nai"]
+    },
+    "formats": {
+        "windows": ["exe", "dll", "ps1", "vba", "python"],
+        "linux": ["elf", "py", "c", "ruby"],
+        "android": ["apk"],
+        "macos": ["macho", "py", "c"],
+        "web": ["php", "jsp", "asp", "war"]
+    },
+    "payloads": {
+        "windows": [
+            "windows/meterpreter/reverse_tcp",
+            "windows/meterpreter/reverse_http",
+            "windows/meterpreter/reverse_https",
+            "windows/meterpreter/bind_tcp"
+        ],
+        "linux": [
+            "linux/x86/meterpreter/reverse_tcp",
+            "linux/x86/meterpreter/bind_tcp"
+        ]
+    }
+}
