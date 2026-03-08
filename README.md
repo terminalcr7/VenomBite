@@ -1,4 +1,4 @@
-# 🚀 MSFVenom Payload Generator - Enterprise Edition
+#  MSFVenom Payload Generator - Enterprise Edition
 
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-red.svg)](LICENSE)
@@ -7,7 +7,7 @@
 
 A professional, enterprise-grade automation tool for generating Metasploit payloads with advanced evasion techniques, session management, and comprehensive logging capabilities.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Features](#-features)
 - [Architecture](#-architecture)
 - [Installation](#-installation)
@@ -22,7 +22,7 @@ A professional, enterprise-grade automation tool for generating Metasploit paylo
 - [License](#-license)
 - [Disclaimer](#-disclaimer)
 
-## ✨ Features
+##  Features
 
 ### Core Capabilities
 - **Multi-Platform Support**: Windows, Linux, Android, macOS, and Web payloads
@@ -32,17 +32,17 @@ A professional, enterprise-grade automation tool for generating Metasploit paylo
 - **Encoder Support**: x86/shikata_ga_nai, x86/polymorphic, x64/xor with configurable iterations
 
 ### Advanced Features
-- **🔐 Custom Crypter**: AES-256 encryption with XOR fallback
-- **🔄 Multi-Encoder Chain**: Multiple encoding layers for better evasion
-- **📡 Advanced Listener Management**: Auto-reconnect, multi-port listeners
-- **⚡ Parallel Generation**: Generate multiple payloads simultaneously
-- **📊 Session Analytics**: Track and analyze payload sessions
-- **🔏 Payload Signing**: Cryptographic verification with HMAC-SHA256
-- **📁 Smart Organization**: Session-based directory structure
-- **📝 Comprehensive Logging**: Detailed audit trails
-- **🎨 Professional UI**: Colored output with intuitive menus
+- ** Custom Crypter**: AES-256 encryption with XOR fallback
+- ** Multi-Encoder Chain**: Multiple encoding layers for better evasion
+- ** Advanced Listener Management**: Auto-reconnect, multi-port listeners
+- ** Parallel Generation**: Generate multiple payloads simultaneously
+- ** Session Analytics**: Track and analyze payload sessions
+- ** Payload Signing**: Cryptographic verification with HMAC-SHA256
+- ** Smart Organization**: Session-based directory structure
+- ** Comprehensive Logging**: Detailed audit trails
+- ** Professional UI**: Colored output with intuitive menus
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 MSFVENOM/
@@ -113,7 +113,7 @@ sudo apt install metasploit-framework nmap
 python3 main.py --test
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Interactive Mode (Recommended)
 ```bash
@@ -132,10 +132,10 @@ python3 main.py --quick --lhost 192.168.1.100 --lport 4444 --platform 1
 ### Main Menu Options
 
 ```
-1. 🚀 Generate Payload     - Create new payloads interactively
-2. 🔧 Check Dependencies   - Verify all required tools are installed
-3. 📋 Show Available       - List all supported payloads
-4. ❌ Exit                 - Exit the application
+1.  Generate Payload     - Create new payloads interactively
+2.  Check Dependencies   - Verify all required tools are installed
+3.  Show Available       - List all supported payloads
+4.  Exit                 - Exit the application
 ```
 
 ### Payload Generation Workflow
@@ -257,7 +257,7 @@ export MSFVENOM_DEFAULT_LPORT="4444"
 export MSFVENOM_OUTPUT_DIR="/path/to/payloads"
 ```
 
-## 🎯 Examples
+##  Examples
 
 ### Generate Windows Reverse HTTPS Payload
 ```bash
@@ -290,7 +290,7 @@ export MSFVENOM_OUTPUT_DIR="/path/to/payloads"
 # Apply encryption: y
 ```
 
-## 🔍 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -334,7 +334,7 @@ pip install colorama
 python3 main.py --debug
 ```
 
-## 🛡 Security & Compliance
+##  Security & Compliance
 
 ### Legal Requirements
 - **Always obtain written authorization** before testing any system
@@ -360,7 +360,7 @@ logs/
 4. **Regularly update** Metasploit and dependencies
 5. **Use strong passwords** for listener services
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please follow these steps:
 
@@ -377,11 +377,11 @@ Contributions are welcome! Please follow these steps:
 - Include unit tests where possible
 - Test on Kali Linux before submitting
 
-## 📄 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 **IMPORTANT: READ CAREFULLY BEFORE USE**
 
@@ -413,21 +413,19 @@ This tool is designed **SOLELY** for:
 
 **If you do not have authorization, STOP immediately.**
 
-## 📞 Support
+## Support
 
 - **Documentation**: See this README
-- **Issues**: GitHub Issues page
-- **Email**: security@example.com
-- **Discord**: [Join our server](https://discord.gg/example)
+- **Issues**:Talk to the team
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - Metasploit Framework Team
 - Rapid7
 - Kali Linux Team
 - Open Source Community
 
-## 📊 Version History
+##  Version History
 
 | Version | Date | Changes |
 |---------|------|---------|
@@ -437,4 +435,4 @@ This tool is designed **SOLELY** for:
 
 ---
 
-**Made with 🛡️ for security professionals**
+**Made with  for security professionals**
