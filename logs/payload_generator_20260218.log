@@ -1,0 +1,2 @@
+2026-02-18 17:15:22,882 | INFO | Generating payload: windows/meterpreter_reverse_tcp
+2026-02-18 17:15:32,308 | INFO | SUCCESS: Payload generated: payloads/session_20260218_171432/windows/payload_20260218_171518.exe

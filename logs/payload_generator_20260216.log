@@ -1,0 +1,11 @@
+2026-02-16 07:23:38,387 | INFO | Generating payload: windows/meterpreter/reverse_tcp
+2026-02-16 07:23:43,569 | ERROR | Generation failed: [-] No platform was selected, choosing Msf::Module::Platform::Windows from the payload
+[-] No arch selected, selecting arch: x86 from the payload
+Error: One or more options failed to validate: LHOST.
+
+2026-02-16 17:05:26,304 | INFO | Generating payload: windows/meterpreter_reverse_tcp
+2026-02-16 17:05:46,006 | INFO | SUCCESS: Payload generated: payloads/session_20260216_170525/windows/payload.exe
+2026-02-16 17:29:21,323 | INFO | Generating payload: windows/meterpreter/reverse_tcp
+2026-02-16 17:29:28,092 | INFO | SUCCESS: Payload generated: payloads/session_20260216_172753/windows/payload.exe
+2026-02-16 17:43:28,462 | INFO | Generating payload: windows/meterpreter/reverse_tcp
+2026-02-16 17:43:35,807 | INFO | SUCCESS: Payload generated: payloads/session_20260216_174225/windows/windows.exe

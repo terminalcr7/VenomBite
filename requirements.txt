@@ -1,0 +1,6 @@
+# requirements.txt
+colorama>=0.4.6
+requests>=2.31.0
+netifaces>=0.11.0
+python-dateutil>=2.8.2
+pycryptodome>=3.9.0

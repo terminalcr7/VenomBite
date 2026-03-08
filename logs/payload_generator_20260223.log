@@ -1,0 +1,11 @@
+2026-02-23 09:01:31,694 | INFO | Generating payload: macos/meterpreter_reverse_tcp
+2026-02-23 09:01:36,425 | ERROR | Generation failed: Error: invalid payload: macos/meterpreter_reverse_tcp
+
+2026-02-23 09:02:10,790 | INFO | Generating payload: windows/meterpreter_reverse_tcp
+2026-02-23 09:02:16,384 | INFO | SUCCESS: Payload generated: payloads/session_20260223_085620/windows/payload_20260223_090207.exe
+2026-02-23 09:05:08,788 | INFO | Generating payload: linux/meterpreter_reverse_tcp
+2026-02-23 09:05:12,908 | ERROR | Generation failed: Error: invalid payload: linux/meterpreter_reverse_tcp
+
+2026-02-23 09:07:43,494 | INFO | Generating payload: linux/meterpreter_reverse_tcp
+2026-02-23 09:07:47,499 | ERROR | Generation failed: Error: invalid payload: linux/meterpreter_reverse_tcp
+
